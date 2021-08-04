@@ -1,10 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="utf-8">
+    <title>Form</title>
+    <link href="main.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-$END$
+<div class="container">
+    <div class="title-container">
+        <h1 class="title">Stackfindover</h1>
+    </div>
+    <div class="form-box">
+        <form class="form">
+            <h2>Sign in to your account</h2>
+            <div class="input-container">
+                <label for="email">Email</label>
+                <input id="email" type="email" placeholder="Email">
+            </div>
+            <div class="input-container">
+                <label for="password">Password</label>
+                <input id="password" type="password" placeholder="Password">
+            </div>
+            <div class="check-box-container">
+                <input id="stay" type="checkbox">
+                <label for="stay">Stay signed in for a week</label>
+            </div>
+            <button class="btn" type="submit">
+                Continue
+            </button>
+        </form>
+    </div>
+    <div class="footer-container">
+        <p>
+            Don't have and account?
+            <a class="link" href="https://facebook.com">Sign up</a>
+        </p>
+    </div>
+</div>
 </body>
 </html>
